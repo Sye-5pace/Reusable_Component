@@ -1,14 +1,13 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-article-card',
+  selector: 'app-card',
   standalone: true,
   imports: [],
-  templateUrl: './article-card.component.html',
-  styleUrl: './article-card.component.css'
+  templateUrl: './card.component.html',
 })
 
-export class ArticleCardComponent {
+export class CardComponent {
   @Input() newstitle!: string;
   @Input() newsImg!: string;
   @Input() newsContent!: string;

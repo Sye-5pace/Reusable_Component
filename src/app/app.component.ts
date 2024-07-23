@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArticleCardComponent } from './article-card/article-card.component';
+import { CardComponent } from './reusable-card/card.component';
 
 
 
@@ -7,9 +7,9 @@ import { ArticleCardComponent } from './article-card/article-card.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ArticleCardComponent],
+  imports: [CardComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  
 })
 
 
