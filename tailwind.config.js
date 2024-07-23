@@ -4,10 +4,9 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    // screens: {
-    //   // 'mobile': {'min':'200px','max':'427px'},
-
-    // },
+    fontFamily:{
+      'playfair':["Playfair Display", "serif"]
+    },
     extend: {},
   },
   plugins: [],
