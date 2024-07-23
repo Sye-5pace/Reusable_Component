@@ -9,11 +9,8 @@ import { CardComponent } from './reusable-card/card.component';
   standalone: true,
   imports: [CardComponent],
   templateUrl: './app.component.html',
-  
+
 })
-
-
-
 
 export class AppComponent {
   title = 'news-article-card';
